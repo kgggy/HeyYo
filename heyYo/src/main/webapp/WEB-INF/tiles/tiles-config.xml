@@ -22,17 +22,17 @@
 	</definition>
 
 
-	<!-- <definition name="empty"
-		template="/WEB-INF/views/layout/empty.jsp">
+	<definition name="empty"
+		template="/WEB-INF/views/tiles/empty.jsp">
 		<put-attribute name="body" value="" />
 	</definition>
 
-	<definition name="WILDCARD:*" extends="empty">
+	<definition name="*" extends="empty">
 
 		<put-attribute name="body"
 			value="/WEB-INF/views/notTiles/{1}.jsp" />
 
-	</definition> -->
+	</definition>
 
 
 </tiles-definitions>
