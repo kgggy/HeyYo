@@ -23,7 +23,7 @@ public class HomeController {
 	 * Simply selects the home view to render by returning its name.
 	 */
 	@RequestMapping(value = "/main.do", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
+	public String main(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
 		Date date = new Date();
@@ -35,5 +35,19 @@ public class HomeController {
 		
 		return "home";
 	}
+	
+	@RequestMapping(value="/home.do")
+	public String home() {
+		return "home/main";
+	}
+	@RequestMapping(value="/Tprofile.do")
+	public String Tprofile() {
+		return "home/Tprofile";
+	}
+	@RequestMapping(value="/Tdetails.do")
+	public String Tdetails() {
+		return "home/Tdetails";
+	}
+	
 	
 }

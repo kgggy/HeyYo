@@ -71,7 +71,7 @@
                      posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla
                      dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex
                      nulla cursus.</p>
-                  <a href="#" class="special">더보기</a>
+                  <a href="home.do" class="special">더보기</a>
                </div>
             </div>
          </section>

@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <div class="wrap">
    <div class="container">
       <div class="row">
@@ -42,7 +44,7 @@
             <li class="nav-item active"><a href="index.html"
                class="nav-link">Home</a></li>
             <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="vet.html" class="nav-link">Veterinarian</a></li>
+            <li class="nav-item"><a href="Tprofile.do" class="nav-link">훈련사 프로필</a></li>
             <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
             <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
             <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
