@@ -16,13 +16,13 @@
 			value="/WEB-INF/views/tiles/footer.jsp" />
 	</definition>
 
-	<definition name="WILDCARD:*/*" extends="tiles">
+	<definition name="*/*" extends="tiles">
 		<put-attribute name="body"
 			value="/WEB-INF/views/{1}/{2}.jsp" />
 	</definition>
 
 
-	<definition name="empty"
+	<!-- <definition name="empty"
 		template="/WEB-INF/views/layout/empty.jsp">
 		<put-attribute name="body" value="" />
 	</definition>
@@ -32,7 +32,7 @@
 		<put-attribute name="body"
 			value="/WEB-INF/views/notTiles/{1}.jsp" />
 
-	</definition>
+	</definition> -->
 
 
 </tiles-definitions>
