@@ -50,7 +50,11 @@
 					<div class="content">
 						<h2 class="major">전문 훈련사에게 믿고 맡기세요.</h2>
 						<p></p>
+<<<<<<< HEAD
 						<a href="javascript:alert('로그인 후 이용바랍니다.')" class="special">자세히 보기</a>
+=======
+						<a href="login.do" class="special">자세히 보기</a>
+>>>>>>> branch 'main' of https://github.com/kgggy/HeyYo.git
 					</div>
 				</div>
 			</section>
