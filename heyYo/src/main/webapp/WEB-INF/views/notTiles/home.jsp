@@ -13,6 +13,11 @@
 <noscript>
 	<link rel="stylesheet" href="assets/css/noscript.css" />
 </noscript>
+<style>
+	.text-center {
+	 text-align: center;
+	}
+</style>
 </head>
 <body class="is-preload">
 	<!-- Page Wrapper -->
@@ -21,10 +26,10 @@
 		<!-- Header -->
 		<header id="header" class="alt">
 			<h1>
-				<a href="home.do">HeyYo</a>
+				HeyYo
 			</h1>
 			<nav>
-				Login
+				<a href="login.do">Login</a>
 			</nav>
 		</header>
 
@@ -50,7 +55,6 @@
 					<div class="content">
 						<h2 class="major">전문 훈련사에게 믿고 맡기세요.</h2>
 						<p></p>
-						<a href="home.do" class="special">더보기</a>
 					</div>
 				</div>
 			</section>
@@ -66,7 +70,7 @@
 							posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla
 							dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex
 							nulla cursus.</p>
-						<a href="#" class="special">더보기</a>
+						<a href="javascript:alert('로그인 후 이용바랍니다.')" class="special">자세히 보기</a>
 					</div>
 				</div>
 			</section>
@@ -127,35 +131,13 @@
 						</article>
 					</section>
 					<ul class="actions">
-						<li><a href="#" class="button">Browse All</a></li>
+						<li><a href="javascript:alert('로그인 후 이용바랍니다.')" class="button">예약하기</a></li>
 					</ul>
 				</div>
 			</section>
 
 		</section>
-
-		<!-- Footer -->
-		<section id="footer">
-			<div class="inner">
-				<ul class="contact">
-					<li class="icon solid fa-home">Untitled Inc<br /> 1234
-						Somewhere Road Suite #2894<br /> Nashville, TN 00000-0000
-					</li>
-					<li class="icon solid fa-phone">(000) 000-0000</li>
-					<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-					<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-					<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-					<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Untitled Inc. All rights reserved.</li>
-					<li>Design: MNGN</li>
-				</ul>
-			</div>
-		</section>
-
-	</div>
-
+		
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>
