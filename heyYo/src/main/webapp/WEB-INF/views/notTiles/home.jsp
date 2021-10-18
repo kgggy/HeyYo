@@ -13,11 +13,6 @@
 <noscript>
 	<link rel="stylesheet" href="assets/css/noscript.css" />
 </noscript>
-<style>
-	.text-center {
-	 text-align: center;
-	}
-</style>
 </head>
 <body class="is-preload">
 	<!-- Page Wrapper -->
@@ -29,7 +24,7 @@
 				HeyYo
 			</h1>
 			<nav>
-				<a href="login.do">Login</a>
+				<h2><a href="login.do">Login</a></h2>
 			</nav>
 		</header>
 
@@ -38,8 +33,8 @@
 			<div class="inner">
 				<br />
 				<div class="logo">
-					<span class="icon fa-gem"></span>
 				</div>
+				<img class="maindog" src="images/maindog.png" />
 				<h2>환영합니다!</h2>
 				<p>반려동물을 위한 서비스를 제공하는 Hey Yo!</p>
 			</div>
@@ -55,7 +50,11 @@
 					<div class="content">
 						<h2 class="major">전문 훈련사에게 믿고 맡기세요.</h2>
 						<p></p>
+<<<<<<< HEAD
+						<a href="javascript:alert('로그인 후 이용바랍니다.')" class="special">자세히 보기</a>
+=======
 						<a href="login.do" class="special">자세히 보기</a>
+>>>>>>> branch 'main' of https://github.com/kgggy/HeyYo.git
 					</div>
 				</div>
 			</section>
@@ -87,7 +86,6 @@
 							posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla
 							dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex
 							nulla cursus.</p>
-						<a href="#" class="special">더보기</a>
 					</div>
 				</div>
 			</section>
@@ -103,37 +101,33 @@
 						auctor laoreet.</p>
 					<section class="features">
 						<article>
-							<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+							<a href="#" class="image"><img src="images/image_1.jpg" alt="" /></a>
 							<h3 class="major">Sed feugiat lorem</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 								vehicula id nulla dignissim dapibus ultrices.</p>
-							<a href="#" class="special">Learn more</a>
 						</article>
 						<article>
-							<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+							<a href="#" class="image"><img src="images/gallery-1.jpg" alt="" /></a>
 							<h3 class="major">Nisl placerat</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 								vehicula id nulla dignissim dapibus ultrices.</p>
-							<a href="#" class="special">Learn more</a>
 						</article>
 						<article>
-							<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+							<a href="#" class="image"><img src="images/image_3.jpg" alt="" /></a>
 							<h3 class="major">Ante fermentum</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 								vehicula id nulla dignissim dapibus ultrices.</p>
-							<a href="#" class="special">Learn more</a>
 						</article>
 						<article>
-							<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+							<a href="#" class="image"><img src="images/pricing-2.jpg" alt="" /></a>
 							<h3 class="major">Fusce consequat</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 								vehicula id nulla dignissim dapibus ultrices.</p>
-							<a href="#" class="special">Learn more</a>
 						</article>
 					</section>
-					<ul class="actions">
-						<li><a href="javascript:alert('로그인 후 이용바랍니다.')" class="button">예약하기</a></li>
-					</ul>
+					<button>
+						<a href="javascript:alert('로그인 후 이용바랍니다.')" class="resv">예약하기</a>
+					</button>
 				</div>
 			</section>
 
