@@ -55,6 +55,7 @@
 					<div class="content">
 						<h2 class="major">전문 훈련사에게 믿고 맡기세요.</h2>
 						<p></p>
+						<a href="home.do" class="special">자세히 보기</a>
 					</div>
 				</div>
 			</section>
