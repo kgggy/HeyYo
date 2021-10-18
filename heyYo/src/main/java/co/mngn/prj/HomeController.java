@@ -48,6 +48,10 @@ public class HomeController {
 	public String Tdetails() {
 		return "home/Tdetails";
 	}
+	@RequestMapping(value="/login.do")
+	public String login() {
+		return "login";
+	}
 	
 	
 }
