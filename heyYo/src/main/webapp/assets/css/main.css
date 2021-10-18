@@ -96,9 +96,8 @@
 		}
 		
 		body {
-			background-color: #e5fbfb;
-			background-image: linear-gradient(to top, rgba(0, 219, 211, 0.8),
-				rgba(0, 219, 211, 0.8));
+			background-color: none;
+			background-image: none;
 			background-size: auto, cover;
 			background-attachment: fixed, fixed;
 			background-position: center, center;
@@ -155,33 +154,22 @@
 		}
 		
 		a {
-			-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s
-				ease-in-out;
-			-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s
-				ease-in-out;
-			-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s
-				ease-in-out;
-			transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-			border-bottom: dotted 1px #ffffff6b;
-			color: #ffffff;
-			text-decoration: none;
+			color: #444444;
 		}
-		
 		a:hover {
 			border-bottom-color: transparent;
-			color: gray !important;
+			color: GRAY !important;
 		}
 		
 		a.special:not(.button) {
 			text-decoration: none;
 			border-bottom: 0;
-			display: block;
+			display: inline;
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
 			margin: 0 0 2em 0;
-			text-transform: uppercase;
 			color: #444444;
 		}
 		
@@ -236,22 +224,18 @@
 		
 		p {
 			margin: 0 0 2em 0;
-		}
-		
-		h2 {
-			color: #ffffff;
-			font-family: Raleway, Helvetica, sans-serif;
-			font-weight: 700;
-			letter-spacing: 0.1em;
-			margin: 0 0 1em 0;
-			text-transform: uppercase;
+			color: #444444;
 		}
 		
 		h2.major {
 			color: #444444;
 		}
 		
-		h1, h3, h4, h5, h6 {
+		h3.major {
+			color: #444444;
+		}
+		
+		h1, h2, h3, h4, h5, h6 {
 			color: #444444;
 			font-family: Raleway, Helvetica, sans-serif;
 			font-weight: 700;
@@ -376,7 +360,6 @@
 			box-sizing: border-box;
 			align-items: center;
 			text-align: center;
-			background-color: #444444;
 			
 		}
 		
@@ -2557,7 +2540,7 @@
 		
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em;
-			background-color: #353849;
+			background-color: #ffffff;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -2683,7 +2666,7 @@
 		}
 		
 		#header.alt {
-			background-color: #444444;
+			background-color: #ffffff;
 		}
 		
 		@media screen and (max-width: 736px) {
@@ -2902,6 +2885,7 @@
 			line-height: 2.25em;
 			text-align: center;
 			width: 2.25em;
+			color: #ffffff;
 		}
 		
 		#banner h2 {
@@ -2960,10 +2944,19 @@
 			text-transform: uppercase;
 		}
 		
+		@media screen and (max-width: 1920px) {
+			#banner {
+			    padding: 7em 0 8.25em 0;
+			    background-image: linear-gradient(to top, rgba(0, 219, 211, 0.8), rgba(0, 219, 211, 0.8));
+			    background-size: auto, cover;
+			    background-position: center, center;
+			    margin-bottom: -6.5em;
+				}
+			}
+		
 		@media screen and (max-width: 1280px) {
 			#banner {
 				padding: 7em 0 8.25em 0;
-				background-color: #444444;
 				background-image: linear-gradient(to top, rgba(0, 219, 211, 0.8),
 					rgba(0, 219, 211, 0.8));
 				background-size: auto, cover;
