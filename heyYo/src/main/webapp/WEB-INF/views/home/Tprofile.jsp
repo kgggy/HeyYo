@@ -24,7 +24,7 @@
 }
 .myButton:active {
 	position:relative;
-	top:0.5px;
+	top:0.3px;
 }
 
 
@@ -36,7 +36,7 @@
 
 .container-1 input#search{
   width: 300px;
-  height: 50px;
+  height: 40px;
   background: #ffffff;
   border: none;
   font-size: 10pt;
@@ -49,18 +49,16 @@
 }
 
 .container-1 .icon{
-  position: absolute;
   top: 50%;
-  margin-left: 17px;
+  margin-left: 1px;
   margin-top: 17px;
   z-index: 1;
   color: #4f5b66;
 }
 
-input::placeholder {
-  color: red;
-  font-style: italic;
-}
+input::-ms-input-placeholder { color: #444444; }
+input::-webkit-input-placeholder { color: #444444; }
+input::-moz-placeholder { color: #444444; }
 
 
 </style>
@@ -86,28 +84,13 @@ input::placeholder {
 		</div>
 	</section>
 
-
-	<!-- <div class="address_button" onclick="execution_daum_address()">
-		<table border="1">
-			<tr>
-				<th>주소</th>
-				<td><input type="text" id="address_kakao" name="address"
-					placeholder="주소" readonly /></td>
-			</tr>
-			<tr>
-				<th>상세 주소</th>
-				<td><input type="text" name="address_detail" /></td>
-			</tr>
-		</table>
-	</div> -->
-
 	<section class="ftco-section bg-light">
 		<div class="container">
 			<div class="box">
 				<div class="container-1">
 					<span class="icon"><i class="fa fa-search"></i></span> <input
 						type="search" id="search" onclick="execution_daum_address()"
-						placeholder="주소를 입력해주세요." readonly /> &nbsp;&nbsp;&nbsp; 
+						value="주소를 입력해주세요." readonly /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
 						<input type="search" id="search" placeholder="상세주소를 입력해주세요." /> &nbsp;&nbsp;&nbsp; 
 					<a href="#" class="myButton">검색</a>
 				</div>

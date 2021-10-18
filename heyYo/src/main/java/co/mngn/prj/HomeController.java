@@ -52,6 +52,10 @@ public class HomeController {
 	public String login() {
 		return "login";
 	}
+	@RequestMapping(value="/Rlist.do")
+	public String Rlist() {
+		return "home/Rlist";
+	}
 	
 	
 }

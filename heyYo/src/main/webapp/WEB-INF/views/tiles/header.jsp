@@ -45,8 +45,8 @@
                class="nav-link">Home</a></li>
             <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
             <li class="nav-item"><a href="Tprofile.do" class="nav-link">훈련사 프로필</a></li>
-            <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+            <li class="nav-item"><a href="services.html" class="nav-link">서비스 예약</a></li>
+            <li class="nav-item"><a href="Rlist.do" class="nav-link">이용 후기</a></li>
             <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
             <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
             <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
