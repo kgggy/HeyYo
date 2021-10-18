@@ -117,7 +117,7 @@
 		/* Type */
 		body, input, select, textarea {
 			color: #444444;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: chosunsg;
 			font-size: 16.5pt;
 			font-weight: 300;
 			line-height: 1.65;
@@ -165,7 +165,7 @@
 			text-decoration: none;
 			border-bottom: 0;
 			display: inline;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: chosunsg;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
@@ -182,7 +182,7 @@
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: chosunsg;
 			font-weight: 900;
 		}
 		
@@ -237,7 +237,7 @@
 		
 		h1, h2, h3, h4, h5, h6 {
 			color: #444444;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: chosunkg;
 			font-weight: 700;
 			letter-spacing: 0.1em;
 			margin: 0 0 1em 0;
@@ -311,7 +311,7 @@
 			background: rgba(255, 255, 255, 0.025);
 			border-radius: 5px;
 			border: solid 2px rgba(255, 255, 255, 0.125);
-			font-family: "Courier New", monospace;
+			font-family: chosunkg, chosunsg;
 			font-size: 0.9em;
 			margin: 0 0.25em;
 			padding: 0.25em 0.65em;
@@ -319,7 +319,7 @@
 		
 		pre {
 			-webkit-overflow-scrolling: touch;
-			font-family: "Courier New", monospace;
+			font-family: chosunkg, chosunsg;
 			font-size: 0.9em;
 			margin: 0 0 2em 0;
 		}
@@ -1788,7 +1788,7 @@
 		label {
 			color: #444444;
 			display: block;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: chosunkg, chosunsg;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
@@ -1874,7 +1874,7 @@
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: chosunkg, chosunsg;
 			text-transform: none;
 			letter-spacing: 0;
 			font-weight: 300;
@@ -1892,7 +1892,7 @@
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: chosunkg, chosunsg;
 			font-weight: 900;
 		}
 		
@@ -1988,7 +1988,7 @@
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: chosunsg;
 			font-weight: 400;
 		}
 		
@@ -2005,7 +2005,7 @@
 		}
 		
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: chosunsg;
 		}
 		
 		/* Image */
@@ -2263,7 +2263,7 @@
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: chosunkg, chosunsg;
 			font-weight: 400;
 		}
 		
@@ -2438,12 +2438,12 @@
 			transition: background-color 0.2s ease-in-out;
 			background-color: transparent;
 			border-radius: 5px;
-			border: 0;
+			border: 1px solid #444444;
 			box-shadow: inset 0 0 0 2px #ffffff4a;
-			color: #ffffff;
+			color: #444444;
 			cursor: pointer;
 			display: inline-block;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: chosunsg;
 			font-size: 0.8em;
 			font-weight: 700;
 			height: 3.75em;
@@ -2458,9 +2458,12 @@
 		
 		input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover,
 			button:hover, .button:hover {
-			background-color: whitesmoke;
 			color: #444444;
 		}
+		
+		.resv {
+		text-decoration: none;
+	}
 		
 		input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active,
 			button:active, .button:active {
@@ -2630,7 +2633,7 @@
 		}
 		
 		#header nav {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: chosunkg;
 			font-size: 0.8em;
 			font-weight: 700;
 			height: 3em;
@@ -2809,7 +2812,7 @@
 			border-radius: 5px;
 			border: 0;
 			display: block;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: chosunkg;
 			font-size: 0.8em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -2855,6 +2858,7 @@
 		}
 		
 		/* Banner */
+		
 		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
@@ -2909,10 +2913,10 @@
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			border-bottom: solid 2px #ffffff34;
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
+			color: #ffffff;
 		}
 		
 		#banner p {
@@ -2936,7 +2940,7 @@
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: chosunsg;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -2958,7 +2962,7 @@
 			#banner {
 				padding: 7em 0 8.25em 0;
 				background-image: linear-gradient(to top, rgba(0, 219, 211, 0.8),
-					rgba(0, 219, 211, 0.8));
+					rgba(0, 219, 211, 0.8),url("maindog.png"));
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3044,7 +3048,7 @@
 		}
 		
 		#wrapper>header p {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: chosunsg;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
