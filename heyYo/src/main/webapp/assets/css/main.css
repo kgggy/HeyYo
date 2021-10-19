@@ -344,7 +344,6 @@
 		p {
 			margin: 0 0 2em 0;
 			color: #444444;
-			font-size: 20px;
 		}
 
 		h2.major {
@@ -404,7 +403,7 @@
 		}
 
 		h3 {
-			font-size: 30px;
+			font-size: 0.9em;
 		}
 
 		h4 {
@@ -2982,7 +2981,6 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: whitesmoke;
 			color: #444444;
 		}
 
@@ -3990,23 +3988,11 @@
     Footer
 ============================================================*/
 
-		#footer.text-center {
-			background-color: #444444;
-			padding: 100px 0 60px;
+		#footer {
+			background-color: #121116;
+			padding: 115px 0 35px;
 			align-items: center;
 			text-align: center;
-		}
-		
-		#footer h3 {
-			color: #009995;
-			content: "";
-			display: block;
-			width: 60px;
-			border-bottom: 1px solid #009995;
-		}
-		
-		#footer p {
-			color: darkgray;
 		}
 
 		.footer-logo {
